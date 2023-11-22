@@ -15,9 +15,12 @@ public class classB extends classA{
     }
 }
 public class Main {
-  classA nn= new classA();
+  public static void main(String[] args) {
+
+        classA nn= new classA();
         classB nd= new classB();
         System.out.println(nn.meth());
         System.out.println(nd.meth());
+    }
   
 }
