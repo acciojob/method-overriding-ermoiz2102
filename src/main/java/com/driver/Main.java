@@ -17,7 +17,7 @@ package com.driver;
 public class Main {
   public static void main(String[] args) {
 
-        A nn= new A();
+        A nn= neA();
         B nd= new B();
         System.out.println(nn.meth());
         System.out.println(nd.meth());
