@@ -1,12 +1,12 @@
 package com.driver;
-public class classA{
+  class classA{
     public classA() {
     }
     public String meth(){
         return "Invoking method from class A";
     }
 }
-public class classB extends classA{
+  class classB extends classA{
     public classB() {
     }
     @Override
