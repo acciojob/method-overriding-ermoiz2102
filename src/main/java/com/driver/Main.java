@@ -1,13 +1,13 @@
 package com.driver;
-  class classA{
-    public classA() {
+  class A{
+    public A() {
     }
     public String meth(){
         return "Invoking method from class A";
     }
 }
-  class classB extends classA{
-    public classB() {
+  class B extends A{
+    public B() {
     }
     @Override
     public String meth(){
@@ -17,8 +17,8 @@ package com.driver;
 public class Main {
   public static void main(String[] args) {
 
-        classA nn= new classA();
-        classB nd= new classB();
+        A nn= new A();
+        B nd= new B();
         System.out.println(nn.meth());
         System.out.println(nd.meth());
     }
